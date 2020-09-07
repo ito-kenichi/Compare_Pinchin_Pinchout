@@ -13,6 +13,12 @@ namespace xamarin.forms_project
         public MainPage()
         {
             InitializeComponent();
+            
+        }
+
+        void OnPinchUpdated(object sender, PinchGestureUpdatedEventArgs e)
+        {
+            // ... code here
         }
     }
 }
